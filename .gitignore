@@ -1,0 +1,5 @@
+node_modules/
+.next/
+*.xlsx
+.DS_Store
+.env
