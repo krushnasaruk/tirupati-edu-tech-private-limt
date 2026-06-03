@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1f2937;
+}
+
+@theme inline {
+  --color-trust-blue: #1e3a8a;
+  --color-trust-blue-light: #3b82f6;
+  --color-whatsapp-green: #25d366;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
